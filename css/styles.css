@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #efebe9 url("https://www.diseñowebs.com.ar/freecodecamp/responsive-web-design-projects/tribute-page/img/background.png") repeat;
+    margin: 0;
+    height: 0;
+    width: 100%;
+	height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+header, section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 22px;
+}
+
+article {
+    background: rgba(255,255,255,.5);
+    width: 96%;
+    margin: 13px auto 22px;
+    padding: 13px 22px;
+    border-radius: 13px;
+    -moz-box-shadow: 3px 3px 6px #999;
+    -webkit-box-shadow: 3px 3px 6px #999;
+    box-shadow: 3px 3px 6px #999;
+}
+
+h1 {
+    color: #B8DD4C;
+    font-size: 3em;
+    letter-spacing: 0.06em;
+    line-height: 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #777;
+}
+
+h2 {
+    color: #E07A7D;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+h3 {
+    color: #178C9E;
+    padding-left: 33px;
+}
+
+h4 {
+    color: #666;
+    font-size: .8em;
+    text-align: right;
+}
+
+h4 a {
+    color: #666;
+    text-decoration: none;
+}
+
+h4 a:hover {
+    color: #333;
+}
+
+p {
+    color: #333;
+    text-align: justify;
+}
+
+#image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 3px solid #fff;
+    -moz-box-shadow: 3px 3px 6px #999;
+    -webkit-box-shadow: 3px 3px 6px #999;
+    box-shadow: 3px 3px 6px #999;
+    margin-bottom: 13px;
+}
+
+#img-caption {
+    font-size: .9em;
+    color: #666;
+}
+
+footer {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E07A7D;
+
+    padding: 1px 22px;
+    height: 33px;
+}
+
+@media (max-width: 620px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 430px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: .9em;
+    }
+}
+
+@media (max-width: 345px) {
+    h1 {
+        font-size: 1.8em;
+    }
+}
